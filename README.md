@@ -1,24 +1,14 @@
-# README
+# Chat Application
+> A Chat application build with Rails and its ActionCable.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## prerequisites
+* Ruby 2.4.0
+* Rails 5.1.4
+* Redis
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Setup & Usage
+* clone the app.
+* install gems, `bundle install`
+* setup database, `rake db:create db:migrate db:seed`
+* run server, `rails s -p5000`
+* go to http://localhost:5000
